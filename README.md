@@ -200,7 +200,7 @@ purchase -> 4
 
 ---
 
-<img width="1080" height="1417" alt="Architecture_Diagram" src="https://github.com/user-attachments/assets/73e486d0-8aad-4111-963d-0f33e7a1998f" />
+<img width="500" height="500" alt="Architecture_Diagram" src="https://github.com/user-attachments/assets/73e486d0-8aad-4111-963d-0f33e7a1998f" />
 
 ## 12. What This Project Demonstrates
 * **Understanding of streaming systems:** Managing data that never ends.
@@ -244,6 +244,7 @@ It prioritizes the **internal mechanics** of high-scale systems over surface-lev
 
 
 ---
+
 
 
 
