@@ -170,7 +170,14 @@ All trade-offs are explicit and intentional.
 
 ---
 
-## 10. How to Run
+## 10. Tech Stack
+* **Language:** C++ (C++17)
+* **Data Structures:** Min-Heap, Hash Map (for Top-K tracking)
+* **Algorithms:** Count-Min Sketch (Probabilistic Frequency Tracking)
+* **Paradigm:** Streaming / Real-time processing
+--- 
+
+## 11. How to Run
 
 ### Compile
 ```bash
@@ -193,7 +200,9 @@ purchase -> 4
 
 ---
 
-## 11. What This Project Demonstrates
+<img width="1080" height="1417" alt="Architecture_Diagram" src="https://github.com/user-attachments/assets/73e486d0-8aad-4111-963d-0f33e7a1998f" />
+
+## 12. What This Project Demonstrates
 * **Understanding of streaming systems:** Managing data that never ends.
 * **Practical use of probabilistic data structures:** Leveraging the Count-Min Sketch for efficiency.
 * **Efficient memory-aware design:** Working within fixed memory bounds.
@@ -202,7 +211,7 @@ purchase -> 4
 
 ---
 
-## 12. Limitations (Intentional)
+## 13. Limitations (Intentional)
 To maintain a strict focus on the core analytics engine, the following were deliberately excluded:
 * **Approximate counts:** Results are based on probability (standard for CMS).
 * **No persistence:** The engine operates entirely in-memory.
@@ -211,7 +220,7 @@ To maintain a strict focus on the core analytics engine, the following were deli
 
 ---
 
-## 13. Future Improvements (Logical Extensions)
+## 14. Future Improvements (Logical Extensions)
 While not currently implemented, the system is designed to naturally extend to:
 * **Sliding window Top-K:** Tracking trends over the last hour/day instead of the whole session.
 * **Multithreaded stream processing:** Using a producer-consumer model for higher throughput.
@@ -223,7 +232,7 @@ While not currently implemented, the system is designed to naturally extend to:
 
 ---
 
-## 14. Why This Project Matters
+## 15. Why This Project Matters
 This project mirrors the core internal logic used by major platforms for:
 1. **Search trend detection** (e.g., Google Trends)
 2. **Popular content ranking** (e.g., Netflix or YouTube "Trending")
@@ -233,14 +242,9 @@ It prioritizes the **internal mechanics** of high-scale systems over surface-lev
 
 ---
 
-## 15. Tech Stack
-* **Language:** C++ (C++17)
-* **Data Structures:** Min-Heap, Hash Map (for Top-K tracking)
-* **Algorithms:** Count-Min Sketch (Probabilistic Frequency Tracking)
-* **Paradigm:** Streaming / Real-time processing
 
 ---
 
-## 16. Author
-Built as a learning-focused systems project to understand real-time analytics at scale.
+
+
 
